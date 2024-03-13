@@ -1,0 +1,342 @@
+[
+     {
+          "id": {
+               "nuevoId": 9001,
+               "idAnterior": 1,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "SPIDER-MAN",
+          "alias": "Peter Parker",
+          "powers": [
+               "Wall-crawling",
+               "Web-shooting",
+               "Superhuman strength"
+          ],
+          "team": "Avengers",
+          "publisher": "Marvel"
+     },
+     {
+          "id": {
+               "nuevoId": 9002,
+               "idAnterior": 2,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "SUPERMAN",
+          "alias": "Clark Kent",
+          "powers": [
+               "Superhuman strength",
+               "Flight",
+               "Heat vision"
+          ],
+          "team": "Justice League",
+          "publisher": "DC"
+     },
+     {
+          "id": {
+               "nuevoId": 9003,
+               "idAnterior": 3,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "IRON MAN",
+          "alias": "Tony Stark",
+          "powers": [
+               "Powered armor",
+               "Genius-level intellect",
+               "Flight"
+          ],
+          "team": "Avengers",
+          "publisher": "Marvel"
+     },
+     {
+          "id": {
+               "nuevoId": 9004,
+               "idAnterior": 4,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "WONDER WOMAN",
+          "alias": "Diana Prince",
+          "powers": [
+               "Superhuman strength",
+               "Lasso of Truth",
+               "Flight"
+          ],
+          "team": "Justice League",
+          "publisher": "DC"
+     },
+     {
+          "id": {
+               "nuevoId": 9005,
+               "idAnterior": 5,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "BLACK WIDOW",
+          "alias": "Natasha Romanoff",
+          "powers": [
+               "Expert spy",
+               "Skilled hand-to-hand combatant",
+               "Weaponry"
+          ],
+          "team": "Avengers",
+          "publisher": "Marvel"
+     },
+     {
+          "id": {
+               "nuevoId": 9006,
+               "idAnterior": 6,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "BATMAN",
+          "alias": "Bruce Wayne",
+          "powers": [
+               "Intelligence",
+               "Peak human physical condition",
+               "Advanced technology"
+          ],
+          "team": "Justice League",
+          "publisher": "DC"
+     },
+     {
+          "id": {
+               "nuevoId": 9007,
+               "idAnterior": 7,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "AQUAMAN",
+          "alias": "Arthur Curry",
+          "powers": [
+               "Superhuman strength",
+               "Hydrokinesis",
+               "Telepathy with sea life"
+          ],
+          "team": "Justice League",
+          "publisher": "DC"
+     },
+     {
+          "id": {
+               "nuevoId": 9008,
+               "idAnterior": 8,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "CAPTAIN AMERICA",
+          "alias": "Steve Rogers",
+          "powers": [
+               "Superhuman strength",
+               "Enhanced agility",
+               "Indomitable will"
+          ],
+          "team": "Avengers",
+          "publisher": "Marvel"
+     },
+     {
+          "id": {
+               "nuevoId": 9009,
+               "idAnterior": 9,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "FLASH",
+          "alias": "Barry Allen",
+          "powers": [
+               "Super speed",
+               "Time travel",
+               "Speed force manipulation"
+          ],
+          "team": "Justice League",
+          "publisher": "DC"
+     },
+     {
+          "id": {
+               "nuevoId": 9010,
+               "idAnterior": 10,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "BLACK PANTHER",
+          "alias": "T'Challa",
+          "powers": [
+               "Enhanced senses",
+               "Vibranium suit",
+               "Skilled warrior"
+          ],
+          "team": "Avengers",
+          "publisher": "Marvel"
+     },
+     {
+          "id": {
+               "nuevoId": 9011,
+               "idAnterior": 11,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "GREEN LANTERN",
+          "alias": "Hal Jordan",
+          "powers": [
+               "Ring-generated constructs",
+               "Flight",
+               "Energy manipulation"
+          ],
+          "team": "Justice League",
+          "publisher": "DC"
+     },
+     {
+          "id": {
+               "nuevoId": 9012,
+               "idAnterior": 12,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "THOR",
+          "alias": "Thor Odinson",
+          "powers": [
+               "Mjolnir (hammer)",
+               "Control over lightning",
+               "Superhuman durability"
+          ],
+          "team": "Avengers",
+          "publisher": "Marvel"
+     },
+     {
+          "id": {
+               "nuevoId": 9013,
+               "idAnterior": 13,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "BATWOMAN",
+          "alias": "Kate Kane",
+          "powers": [
+               "Martial arts",
+               "Detective skills",
+               "Advanced technology"
+          ],
+          "team": "Bat Family",
+          "publisher": "DC"
+     },
+     {
+          "id": {
+               "nuevoId": 9014,
+               "idAnterior": 14,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "HULK",
+          "alias": "Bruce Banner",
+          "powers": [
+               "Superhuman strength",
+               "Invulnerability",
+               "Regenerative healing"
+          ],
+          "team": "Avengers",
+          "publisher": "Marvel"
+     },
+     {
+          "id": {
+               "nuevoId": 9015,
+               "idAnterior": 15,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "ZATANNA",
+          "alias": "Zatanna Zatara",
+          "powers": [
+               "Magic spells",
+               "Sorcery",
+               "Illusion manipulation"
+          ],
+          "team": "Justice League Dark",
+          "publisher": "DC"
+     },
+     {
+          "id": {
+               "nuevoId": 9016,
+               "idAnterior": 16,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "DOCTOR STRANGE",
+          "alias": "Stephen Strange",
+          "powers": [
+               "Mystic arts",
+               "Reality manipulation",
+               "Dimensional travel"
+          ],
+          "team": "Defenders",
+          "publisher": "Marvel"
+     },
+     {
+          "id": {
+               "nuevoId": 9017,
+               "idAnterior": 17,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "GREEN ARROW",
+          "alias": "Oliver Queen",
+          "powers": [
+               "Archery skills",
+               "Peak human physical condition",
+               "Strategic mind"
+          ],
+          "team": "Justice League",
+          "publisher": "DC"
+     },
+     {
+          "id": {
+               "nuevoId": 9018,
+               "idAnterior": 18,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "SCARLET WITCH",
+          "alias": "Wanda Maximoff",
+          "powers": [
+               "Reality manipulation",
+               "Energy projection",
+               "Telekinesis"
+          ],
+          "team": "Avengers",
+          "publisher": "Marvel"
+     },
+     {
+          "id": {
+               "nuevoId": 9019,
+               "idAnterior": 19,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "MARTIAN MANHUNTER",
+          "alias": "J'onn J'onzz",
+          "powers": [
+               "Shape-shifting",
+               "Telepathy",
+               "Super strength"
+          ],
+          "team": "Justice League",
+          "publisher": "DC"
+     },
+     {
+          "id": {
+               "nuevoId": 9020,
+               "idAnterior": 20,
+               "name": "PRUEBA PRUEBNA PREUUAAAAA",
+               "codigo": "Coder123"
+          },
+          "name": "DEADPOOL",
+          "alias": "Wade Wilson",
+          "powers": [
+               "Regenerative healing",
+               "Expert marksman",
+               "Fourth wall breaking"
+          ],
+          "team": "None",
+          "publisher": "Marvel"
+     }
+]
