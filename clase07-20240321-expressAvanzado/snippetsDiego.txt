@@ -1,0 +1,729 @@
+{
+	// Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console2": {
+	// 	// "scope": "javascript,typescript",
+	// 	"prefix": "log3",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"console.log('$2');",
+	// 		"",
+	// 		"\tconsole.log('$3');",
+	// 		"$4"
+	// 	],
+	// 	"description": "Log output to console"
+	//}
+	
+	"Genera Ids numéricos, autoincrementales, en un array de objetos":{
+		"prefix":"genid",
+		"body": [
+			"let id=1",
+			"if(${1:arreglo}.length>0){",
+			"\tid=Math.max(...${1:arreglo}.map(d=>d.id))+1",
+			"}",
+			""
+		]
+	},
+
+
+	"Imprime 2 console logs...": {
+		// "scope": "javascript,typescript",
+		"prefix": "logx2",
+		"body": [
+			"console.log('$1');",
+			"console.log('$2');",
+			"$3"
+		],
+		"description": "Imprime 2 console.log"
+	},
+
+	"Imprime 3 console logs...": {
+		// "scope": "javascript,typescript",
+		"prefix": "logx3",
+		"body": [
+			"console.log('$1');",
+			"console.log('$2');",
+			"console.log('$3');",
+			"$4"
+		],
+		"description": "Imprime 2 console.log"
+	},
+
+
+	"res.status(400).json": {
+		// "scope": "javascript,typescript",
+		"prefix": "r400",
+		"body": [
+			"res.setHeader('Content-Type','application/json');",
+			"return res.status(400).json({error:`$1`})"
+		],
+		"description": "response error 400, devuelve json"
+	},
+
+	"res.status(200).json": {
+		// "scope": "javascript,typescript",
+		"prefix": "r200",
+		"body": [
+			"res.setHeader('Content-Type','application/json');",
+			"return res.status(200).json({payload:$1});"
+		],
+		"description": "response error 200, devuelve json"
+	},
+
+	"res.status(500).json": {
+		// "scope": "javascript,typescript",
+		"prefix": "r500",
+		"body": [
+			"res.setHeader('Content-Type','application/json');",
+			"return res.status(500).json(",
+			"\t{",
+			"\t\terror:`Error inesperado en el servidor - Intente más tarde, o contacte a su administrador`,",
+			"\t\tdetalle:`$1`",
+			"\t}",
+			")",
+			""
+		],
+		"description": "response error 500, devuelve json"
+	},
+
+	"Saludo": {
+		// "scope": "javascript,typescript",
+		"prefix": "saludo",
+		"body": [
+			"console.log('Hola, $1. ¿Cómo están?');",
+			"console.log('$2. ¿OK?');",
+			"$3"
+		],
+		"description": "Log output to console"
+	},
+
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+
+	"Router c/ES6": {
+		"prefix": "routerES6",
+		"body": [
+			"import { Router } from 'express';",
+			"export const router=Router()",
+			"",
+			"router.get('/',(req,res)=>{",
+			"",
+			"\t$1",
+			"",
+			"\tres.setHeader('Content-Type','application/json')",
+			"\tres.status(200).json({$2})",
+			"})"
+		],
+		"description": "Cascaron router Express"
+	},
+
+	"Router c/CJS": {
+		"prefix": "routerCJS",
+		"body": [
+			"const Router=require('express').Router;",
+			"const router=Router()",
+			"",
+			"router.get('/',(req,res)=>{",
+			"",
+			"\t$1",
+			"",
+			"\tres.setHeader('Content-Type','application/json')",
+			"\tres.status(200).json({$2})",
+			"})",
+			"",
+			"",
+			"module.exports=router",
+
+		],
+		"description": "Cascaron router Express"
+	},
+
+
+	"Numero aleatorio": {
+		"prefix": "alea",
+		"body": [
+			"Math.floor(Math.random()*($1)+$2)      // Math.floor(Math.random()*(cantNrosAGenerar)+aPartirDelNro)",
+		],
+		"description": "formula para numero aleatorio"
+	},
+
+	"Utils: __dirname": {
+		"prefix": "utils",
+		"body": [
+			"import {fileURLToPath} from 'url';",
+			"import { dirname } from 'path';",
+			"",
+			"const __filename = fileURLToPath(import.meta.url);",
+			"const __dirname = dirname(__filename);",
+			"",
+			"export default __dirname;",
+		],
+		"description": "__dirname para esquema importación ECMAScript6"
+	},
+
+	"importaciones básicas": {
+		"prefix": "impbas",
+		"body": [
+			"const express=require('express');",
+			"const fs=require('fs');",
+			"const multer=require('multer');"
+		],
+		"description": "Realiza el require de express, multer, y fs"
+	},
+
+	"Servidor Express básico c/CJS": {
+		"prefix": "serverCJS",
+		"body": [
+			// "console.log('$1');",
+			// "$2"
+			"const express=require('express');",
+			"const PORT=3000;",
+			"",
+			
+			"const app=express();",
+			"",
+
+			"app.use(express.json());",
+			"app.use(express.urlencoded({extended:true}));",
+			
+			"",
+
+			"app.get('/',(req,res)=>{",
+			"\tres.setHeader('Content-Type','text/plain');",
+			"\tres.status(200).send('OK');",
+			"})",
+			
+			"",
+
+			"const server=app.listen(PORT,()=>{",
+			"\tconsole.log(`Server escuchando en puerto \\${PORT\\}`);",
+			"});",
+
+			"",
+
+		],
+		"description": "cascaron Servidor Express, básico (c/CJS)"
+	},
+
+	"Servidor Express básico c/ES6": {
+		"prefix": "serverES6",
+		"body": [
+			// "console.log('$1');",
+			// "$2"
+			"import express from 'express';",
+			"const PORT=3000;",
+			"",
+			
+			"const app=express();",
+			"",
+
+			"app.use(express.json());",
+			"app.use(express.urlencoded({extended:true}));",
+			
+			"",
+
+			"app.get('/',(req,res)=>{",
+			"\tres.setHeader('Content-Type','text/plain');",
+			"\tres.status(200).send('OK');",
+			"})",
+			
+			"",
+
+			"const server=app.listen(PORT,()=>{",
+			"\tconsole.log(`Server escuchando en puerto \\${PORT\\}`);",
+			"});",
+
+			"",
+
+		],
+		"description": "cascaron Servidor Express, básico (c/ES6)"
+	},
+
+
+	"Endpoint get": {
+		"prefix": "getendpoint",
+		"body": [
+			"app.get('/$1',(req,res)=>{",
+			"\t$2",
+			"\tres.setHeader('Content-Type','application/json');",
+			"\tres.status(200).json({",
+			"\t$3",
+			"\t});",
+			"});"
+		],
+		"description": "Endpoint Get"
+	},
+	
+	"Endpoint varios": {
+		"prefix": "endpoint",
+		"body": [
+			"app.$1('/$2',(req,res)=>{",
+			"\t$3",
+			"\tres.setHeader('Content-Type','application/json');",
+			"\tres.status(200).json({",
+			"\t\t$4",
+			"\t});",
+			"});"
+		],
+		"description": "Endpoint varios"
+	},
+
+	"Servidor Express / Handlebars c/CJS": {
+		"prefix": "serverCJSExpHand",
+		"body": [
+			"const path=require('path');",
+			"const express=require('express');",
+			"const engine=require('express-handlebars').engine",
+			"",
+			
+			"const PORT=3000;",
+			"",
+
+			"const app=express();",
+			"",
+			
+			"app.engine('handlebars', engine());",
+			"app.set('view engine', 'handlebars');",
+			"app.set('views', path.join(__dirname,'/views'));",
+
+			"",
+			
+
+			"app.use(express.json());",
+			"app.use(express.urlencoded({extended:true}));",
+			
+			"",
+			"app.use(express.static(path.join(__dirname,'/public')));",
+			"",
+
+			"app.get('/',(req,res)=>{",
+			"\tres.setHeader('Content-Type','text/plain');",
+			"\tres.status(200).send('OK');",
+			"})",
+			
+			"",
+			"app.get('/',(req,res)=>{",
+			"\tres.setHeader('Content-Type','text/html');",
+			"\tres.status(200).render('home');",
+			"})",
+			
+			"",
+
+			"const server=app.listen(PORT,()=>{",
+			"\tconsole.log(`Server escuchando en puerto \\${PORT\\}`);",
+			"});",
+
+			"",
+
+		],
+		"description": "cascaron Servidor Express, c/express-Handlebars (c/CJS)"
+	},
+
+	"Servidor Express / Handlebars / IO / Mongoose c/ES6": {
+		"prefix": "serverES6ExpHandIOMong",
+		"body": [
+			"import __dirname from './utils.js';",
+			"import path from 'path';",
+
+			"import express from 'express';",
+			"import {engine} from 'express-handlebars';",
+			"import {Server} from 'socket.io';",
+			"import mongoose from 'mongoose';",
+			"",
+			
+			"const PORT=3000;",
+			"",
+
+			"const app=express();",
+			"",
+			
+			"app.engine('handlebars', engine({",
+			"runtimeOptions: {",
+			"\tallowProtoPropertiesByDefault: true,",
+			"\tallowProtoMethodsByDefault: true,",
+			"},",
+			"}));",
+			"app.set('view engine', 'handlebars');",
+			"app.set('views', path.join(__dirname,'/views'));",
+
+			"",
+			
+
+			"app.use(express.json());",
+			"app.use(express.urlencoded({extended:true}));",
+			
+			"",
+			"app.use(express.static(path.join(__dirname,'/public')));",
+			"",
+
+			"app.get('/',(req,res)=>{",
+			"\tres.setHeader('Content-Type','text/plain');",
+			"\tres.status(200).send('OK');",
+			"})",
+			
+			"",
+			"app.get('/',(req,res)=>{",
+			"\tres.setHeader('Content-Type','text/html');",
+			"\tres.status(200).render('home');",
+			"})",
+			
+			"",
+
+			"const server=app.listen(PORT,()=>{",
+			"\tconsole.log(`Server escuchando en puerto \\${PORT\\}`);",
+			"});",
+			
+			"",
+			"const io=new Server(server);",
+			"",
+
+			"io.on('connection',(socket)=>{",
+			"\tconsole.log(`Se ha conectado un cliente`);",
+			"})",
+
+			"",
+
+			"const conectar=async()=>{",
+			"\ttry {",
+			"\t\tawait mongoose.connect('mongodb://127.0.0.1:27017/pruebas_mongo')",
+			"\t\tconsole.log(`Conexión a DB establecida`)",
+			"\t} catch (err) {",
+			"\t\tconsole.log(`Error al conectarse con el servidor de BD: \\${err\\}`)",
+			"\t}",
+			"}",
+			"",
+			"conectar();",
+
+			"",
+
+			
+		],
+		"description": "cascaron Servidor Express, c/express-Handlebars, Socket.io, y Mongoose (c/ES6)"
+	},
+
+
+	"Servidor Express / Handlebars / Mongoose c/ES6": {
+		"prefix": "serverES6ExpHandMong",
+		"body": [
+			"import __dirname from './utils.js';",
+			"import path from 'path';",
+
+			"import express from 'express';",
+			"import {engine} from 'express-handlebars';",
+			"import mongoose from 'mongoose';",
+			"",
+			
+			"const PORT=3000;",
+			"",
+
+			"const app=express();",
+			"",
+			
+			"app.engine('handlebars', engine({",
+			"runtimeOptions: {",
+			"\tallowProtoPropertiesByDefault: true,",
+			"\tallowProtoMethodsByDefault: true,",
+			"},",
+			"}));",
+			"app.set('view engine', 'handlebars');",
+			"app.set('views', path.join(__dirname,'/views'));",
+
+			"",
+			
+
+			"app.use(express.json());",
+			"app.use(express.urlencoded({extended:true}));",
+			
+			"",
+			"app.use(express.static(path.join(__dirname,'/public')));",
+			"",
+
+			"app.get('/',(req,res)=>{",
+			"\tres.setHeader('Content-Type','text/plain');",
+			"\tres.status(200).send('OK');",
+			"})",
+			
+			"",
+			"app.get('/',(req,res)=>{",
+			"\tres.setHeader('Content-Type','text/html');",
+			"\tres.status(200).render('home');",
+			"})",
+			
+			"",
+
+			"const server=app.listen(PORT,()=>{",
+			"\tconsole.log(`Server escuchando en puerto \\${PORT\\}`);",
+			"});",
+			
+			"",
+
+			"const conectar=async()=>{",
+			"\ttry {",
+			"\t\tawait mongoose.connect('mongodb://127.0.0.1:27017/pruebas_mongo')",
+			"\t\tconsole.log(`Conexión a DB establecida`)",
+			"\t} catch (err) {",
+			"\t\tconsole.log(`Error al conectarse con el servidor de BD: \\${err\\}`)",
+			"\t}",
+			"}",
+			"",
+			"conectar();",
+			
+			"",
+			
+		],
+		"description": "cascaron Servidor Express, c/express-Handlebars y Mongoose (c/ES6)"
+	},
+
+	"Servidor Express / Handlebars c/ES6": {
+		"prefix": "serverES6ExpHand",
+		"body": [
+			"import __dirname from './utils.js';",
+			"import path from 'path';",
+
+			"import express from 'express';",
+			"import {engine} from 'express-handlebars';",
+			"",
+			
+			"const PORT=3000;",
+			"",
+
+			"const app=express();",
+			"",
+			
+			"app.engine('handlebars', engine({",
+			"runtimeOptions: {",
+			"\tallowProtoPropertiesByDefault: true,",
+			"\tallowProtoMethodsByDefault: true,",
+			"},",
+			"}));",
+			"app.set('view engine', 'handlebars');",
+			"app.set('views', path.join(__dirname,'/views'));",
+
+			"",
+			
+
+			"app.use(express.json());",
+			"app.use(express.urlencoded({extended:true}));",
+			
+			"",
+			"app.use(express.static(path.join(__dirname,'/public')));",
+			"",
+
+			"app.get('/',(req,res)=>{",
+			"\tres.setHeader('Content-Type','text/plain');",
+			"\tres.status(200).send('OK');",
+			"})",
+			
+			"",
+			"app.get('/',(req,res)=>{",
+			"\tres.setHeader('Content-Type','text/html');",
+			"\tres.status(200).render('home');",
+			"})",
+			
+			"",
+
+			"const server=app.listen(PORT,()=>{",
+			"\tconsole.log(`Server escuchando en puerto \\${PORT\\}`);",
+			"});",
+
+			"",
+
+			
+		],
+		"description": "cascaron Servidor Express, c/express-Handlebars(c/ES6)"
+	},
+
+
+	"Model Mongoose": {
+		"prefix": "modeloMongoose",
+		"body": [
+			"import {Schema, model} from 'mongoose';",
+			"",
+			"const heroesColeccion='heroes';",
+			"",
+			"const heroeEsquema= new Schema({",
+			"\tnombre: {",
+			"\t\ttype: String,",
+			"\t\tunique: true,",
+			"\t\trequired: [true, `Nombre del heroe es obligatorio`]",
+			"\t},",
+			"\tpoder: {",
+			"\t\ttype: String,",
+			"\t},",
+			"\tfuerza0a100: Number,",
+			"\tempresa: String,",
+			"\tfechaAlta: {",
+			"\t\ttype: Date,",
+			"\t\tdefault: Date.now()",
+			"\t}",
+			"",
+			"});",
+			"",
+			"export const modeloHeroe=model(heroesColeccion, heroeEsquema);",
+		],	
+		"description": "Modelo Mongoose"
+	},
+
+
+	"Array de heroes": {
+		"prefix": "heroes",
+		"body": [
+			"let heroes=[",
+			"    {",
+			"        id:1,",
+			"        name:'Spider-Man',",
+			"        alias:'Peter Parker',",
+			"        team:'Avengers',",
+			"        publisher:'Marvel',",
+			"    },",
+			"    {",
+			"        id:2,",
+			"        name:'Superman',",
+			"        alias:'Clark Kent',",
+			"        team:'Justice League',",
+			"        publisher:'DC',",
+			"    },",
+			"    {",
+			"        id:3,",
+			"        name:'Iron Man',",
+			"        alias:'Tony Stark',",
+			"        team:'Avengers',",
+			"        publisher:'Marvel',",
+			"    },",
+			"    {",
+			"        id:4,",
+			"        name:'Wonder Woman',",
+			"        alias:'Diana Prince',",
+			"        team:'Justice League',",
+			"        publisher:'DC',",
+			"    },",
+			"    {",
+			"        id:5,",
+			"        name:'Black Widow',",
+			"        alias:'Natasha Romanoff',",
+			"        team:'Avengers',",
+			"        publisher:'Marvel',",
+			"    },",
+			"    {",
+			"        id:6,",
+			"        name:'Batman',",
+			"        alias:'Bruce Wayne',",
+			"        team:'Justice League',",
+			"        publisher:'DC',",
+			"    },",
+			"    {",
+			"        id:7,",
+			"        name:'Aquaman',",
+			"        alias:'Arthur Curry',",
+			"        team:'Justice League',",
+			"        publisher:'DC',",
+			"    },",
+			"    {",
+			"        id:8,",
+			"        name:'Captain America',",
+			"        alias:'Steve Rogers',",
+			"        team:'Avengers',",
+			"        publisher:'Marvel',",
+			"    },",
+			"    {",
+			"        id:9,",
+			"        name:'Flash',",
+			"        alias:'Barry Allen',",
+			"        team:'Justice League',",
+			"        publisher:'DC',",
+			"    },",
+			"    {",
+			"        id:10,",
+			"        name:'Black Panther',",
+			"        alias:'TChalla',",
+			"        team:'Avengers',",
+			"        publisher:'Marvel',",
+			"    },",
+			"    {",
+			"        id:11,",
+			"        name:'Green Lantern',",
+			"        alias:'Hal Jordan',",
+			"        team:'Justice League',",
+			"        publisher:'DC',",
+			"    },",
+			"    {",
+			"        id:12,",
+			"        name:'Thor',",
+			"        alias:'Thor Odinson',",
+			"        team:'Avengers',",
+			"        publisher:'Marvel',",
+			"    },",
+			"    {",
+			"        id:13,",
+			"        name:'Batwoman',",
+			"        alias:'Kate Kane',",
+			"        team:'Bat Family',",
+			"        publisher:'DC',",
+			"    },",
+			"    {",
+			"        id:14,",
+			"        name:'Hulk',",
+			"        alias:'Bruce Banner',",
+			"        team:'Avengers',",
+			"        publisher:'Marvel',",
+			"    },",
+			"    {",
+			"        id:15,",
+			"        name:'Zatanna',",
+			"        alias:'Zatanna Zatara',",
+			"        team:'Justice League Dark',",
+			"        publisher:'DC',",
+			"    },",
+			"    {",
+			"        id:16,",
+			"        name:'Doctor Strange',",
+			"        alias:'Stephen Strange',",
+			"        team:'Defenders',",
+			"        publisher:'Marvel',",
+			"    },",
+			"    {",
+			"        id:17,",
+			"        name:'Green Arrow',",
+			"        alias:'Oliver Queen',",
+			"        team:'Justice League',",
+			"        publisher:'DC',",
+			"    },",
+			"    {",
+			"        id:18,",
+			"        name:'Scarlet Witch',",
+			"        alias:'Wanda Maximoff',",
+			"        team:'Avengers',",
+			"        publisher:'Marvel',",
+			"    },",
+			"    {",
+			"        id:19,",
+			"        name:'Martian Manhunter',",
+			"        alias:'Jonn Jonzz',",
+			"        team:'Justice League',",
+			"        publisher:'DC',",
+			"    },",
+			"    {",
+			"        id:20,",
+			"        name:'Deadpool',",
+			"        alias:'Wade Wilson',",
+			"        team:'None',",
+			"        publisher:'Marvel',",
+			"    },",
+			"]"
+			
+		],
+		"description": "Array de heroes"
+	}
+
+}
