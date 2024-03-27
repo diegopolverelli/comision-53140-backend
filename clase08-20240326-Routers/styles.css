@@ -1,0 +1,92 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 5;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* Títulos */
+  h1, h2, h3, h4 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 2rem 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  /* Formulario */
+  #mensaje {
+    background-color: #FFF7D9;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  input[type='text'], input[type='email'] {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    margin-top: .5rem;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #CCC;
+  }
+  
+  input[type='submit'] {
+    background-color: #4CAF50; /* Verde*/
+    color: white;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #45a049;
+  }
+  
+  /* Imagen */
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Enlaces */
+  a {
+    text-decoration: none;
+    color: #008B8B; /* Azul oscuro */
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    color: #006969;
+  }
+  
+  p {
+    margin: 1rem 0;
+  }
+  
