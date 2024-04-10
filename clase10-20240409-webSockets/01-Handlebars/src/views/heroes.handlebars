@@ -1,0 +1,32 @@
+<h2>Heroes</h2>
+<hr>
+<h3>Heroe del dia</h3>
+<p><strong>{{heroeDelDia.name}}</strong> - identidad: {{heroeDelDia.alias}}</p>
+
+<button>Actualizar</button>
+{{!-- <p>{{heroes.0.name}}</p> --}}
+<h3>Listado heroes:</h3>
+
+{{!-- https://developer.mozilla.org/en-US/docs/Glossary/Falsy --}}
+{{#if detalle}}
+    <ul>
+        {{#each heroes}}
+            <li>{{name}} - identidad: {{alias}} - equipo: {{team}}</li>        
+        {{/each}}
+    </ul>
+
+{{else}}
+    <ul>
+        {{#each heroes}}
+            <li>{{name}}</li>        
+        {{/each}}
+    </ul>
+
+{{/if}}
+
+
+
+<br><br>
+<a href="/">Home</a>
+
+<script src="/js/heroes.js"></script>
