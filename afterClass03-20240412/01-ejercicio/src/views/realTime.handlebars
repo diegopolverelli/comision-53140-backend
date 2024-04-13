@@ -1,0 +1,19 @@
+<h2>Heroes</h2>
+<hr>
+<h3>Listado de Heroes</h3>
+<ul id="heroes">
+    {{!-- {{heroes.0.name}}
+    {{heroes.4.name}} --}}
+    {{#each heroes}}
+        <li>{{name}}</li>
+    {{/each}}
+
+</ul>
+
+
+
+<br>
+<a href="/">Home Page</a>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realTime.js"></script>
