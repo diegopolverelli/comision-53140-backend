@@ -1,0 +1,34 @@
+<h2>Usuarios:</h2>
+<hr>
+
+<ul>
+    {{#each usuarios}}
+        <li>
+            {{first_name}} {{last_name}}, email <strong>{{email}}</strong> | code: {{code}}
+        </li>
+    {{/each}}
+</ul>
+
+<br>
+<a href="/usuarios?pagina=1">Pág. 1</a>
+
+{{#if hasPrevPage}}
+    <a href="/usuarios?pagina={{prevPage}}">Ant.</a>
+{{/if}}
+
+{{#if hasNextPage}}
+    <a href="/usuarios?pagina={{nextPage}}">Sig.</a>
+{{/if}}
+
+<a href="/usuarios?pagina={{totalPages}}">Ult.Pág.</a>
+<br>
+<label for="paginaActual"></label>
+<input type="number" max="{{totalPages}}" min="1" step="1" id="paginaActual" name="paginaActual" value="{{page}}" onchange="cambioPagina()">
+
+
+<script>
+    let inputPaginaActual=document.getElementById("paginaActual")
+    const cambioPagina=()=>{
+        window.location.href="/usuarios?pagina="+inputPaginaActual.value
+    }
+</script>

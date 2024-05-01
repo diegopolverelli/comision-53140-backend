@@ -1,0 +1,57 @@
+/* Estilos para el fondo de la página */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para la fuente y tamaño de fuente */
+body, h3, h4, p, li, a, input {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilos para el título */
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para la lista de usuarios */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para los elementos de la lista de usuarios */
+  li {
+    margin-bottom: 10px;
+  }
+  
+/* Estilos para los enlaces de paginación */
+a {
+  color: blue;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+/* Estilos para los enlaces de paginación al pasar el cursor sobre ellos */
+a:hover {
+  color: darkblue;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+  /* Estilos para los enlaces de paginación inactivos */
+  span {
+    color: gray;
+    margin-right: 20px;
+  }
+  
+  /* Estilos para el campo de entrada de página */
+  input {
+    width: 50px;
+    margin-left: 10px;
+  }
+  
