@@ -1,0 +1,16 @@
+<h2>Productos</h2>
+<hr>
+
+<input type="text" value="{{carrito._id}}" hidden id="carrito">
+<ul>
+    {{#each productos}}
+        <li>
+            <strong>{{descripcion}}</strong> - precio: {{precio}} <button onclick="comprar('{{_id}}')">Agregar a Carrito</button>
+        </li>
+    {{/each}}
+</ul>
+
+<br>
+<br>
+<a href="/carrito/{{carrito._id}}">Ver Carrito</a>
+<script src="/js/productos.js"></script>
