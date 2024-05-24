@@ -1,0 +1,38 @@
+[
+     {
+          "id": 1,
+          "nombre": "Juan",
+          "email": "juan@test.com",
+          "password": "123"
+     },
+     {
+          "id": 2,
+          "nombre": "Diego",
+          "email": "diegopolverelli@test.com",
+          "password": "123"
+     },
+     {
+          "id": 3,
+          "nombre": "Milagros",
+          "email": "milli@test.com",
+          "password": "123", "rol":"user"
+     },
+     {
+          "id": 4,
+          "nombre": "Romina",
+          "email": "romina@test.com",
+          "password": "123", "rol":"premium"
+     },
+     {
+          "id": 5,
+          "nombre": "Jimena",
+          "email": "jime@test.com",
+          "password": "123"
+     },
+     {
+          "id": 6,
+          "nombre": "Veronica",
+          "email": "veronica@test.com",
+          "password": "123"
+     }
+]
