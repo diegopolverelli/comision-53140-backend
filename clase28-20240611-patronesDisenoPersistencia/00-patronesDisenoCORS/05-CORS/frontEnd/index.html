@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Front...</h2>
+    <hr>
+    <div id="datos"></div>
+    <a href="#" id="aDatos">Cargar Datos</a>
+
+    <script>
+        const divDatos=document.getElementById("datos")
+        const aDatos=document.getElementById("aDatos")
+
+        aDatos.addEventListener("click", async(e)=>{
+            e.preventDefault()
+            try {
+                const respuesta=await fetch("http://localhost:3000/datos")
+                const datos=await respuesta.json()
+                divDatos.textContent=datos.payload
+            } catch (error) {
+                divDatos.textContent="Error... :("
+            }
+        })
+
+    </script>
+</body>
+</html>
