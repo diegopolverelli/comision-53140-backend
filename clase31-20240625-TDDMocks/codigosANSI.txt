@@ -1,0 +1,35 @@
+// Códigos ANSI básicos para dar formato al texto en la terminal:
+
+//         Colores:
+//         \x1b[30m - Negro
+//         \x1b[31m - Rojo
+//         \x1b[32m - Verde
+//         \x1b[33m - Amarillo
+//         \x1b[34m - Azul
+//         \x1b[35m - Magenta
+//         \x1b[36m - Cyan
+//         \x1b[37m - Blanco
+
+//         Estilo de fuente:
+//         \x1b[1m - Negrita
+//         \x1b[3m - Itálica
+//         \x1b[4m - Subrayado
+//         \x1b[22m - Quitar negrita
+//         \x1b[23m - Quitar itálica
+//         \x1b[24m - Quitar subrayado
+
+//         Color de fondo:
+//         \x1b[40m - Negro
+//         \x1b[41m - Rojo
+//         \x1b[42m - Verde
+//         \x1b[43m - Amarillo
+//         \x1b[44m - Azul
+//         \x1b[45m - Magenta
+//         \x1b[46m - Cyan
+//         \x1b[47m - Blanco
+
+//         Resetear el estilo de fuente:
+//         \x1b[0m
+
+//         Para utilizar estos códigos en un string, debes concatenarlos al inicio del texto que quieras formatear y luego concatenar el código para resetear el estilo al final del texto.
+//  EJ:    console.log('\x1b[34m\x1b[1mEjemplo\x1b[0m');
