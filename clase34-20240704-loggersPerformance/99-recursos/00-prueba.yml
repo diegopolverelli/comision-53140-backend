@@ -1,0 +1,58 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 3
+      arrivalRate: 5
+      rampTo: 10
+      name: Fase 1 /2 - prueba Login / Registro
+    - duration: 10
+      arrivalRate: 10
+      rampTo: 15
+      name: Fase 2 /2 - prueba Login / Registro
+scenarios:
+  - name: "Login / Registro flujo de datos"
+    flow:
+      - get:
+          url: "/usuario"
+          capture:
+            - json: "$.usuario.nombre"
+              as: "nombre"
+            - json: "$.usuario.email"
+              as: "email"
+            - json: "$.usuario.apellido"
+              as: "apellido"
+      # - log: "Nombre / email generados: {{nombre}} / {{email}}"
+      - post:
+          url: "/api/sessions/registro"
+          headers:
+            authorization: "Bearer token..."
+          json:
+            nombre: "{{nombre}}"
+            email: "{{email}}"
+            password: "123"
+            apellido: "{{apellido}}"
+      - think: 2
+      - post:
+          url: "/api/sessions/login"
+          # headers:
+          #   authorization: "Bearer token..."
+          json:
+            email: "{{email}}"
+            password: "123"
+      - log: "Nombre / email generados: {{nombre}} / {{email}}"
+  - name: "Ruta prueba"
+    flow:
+      - get:
+          url: "/prueba"
+          capture:
+            - json: "$[0].name"
+              as: "nombre"
+      - log: "Nombre heroe: {{nombre}}"
+  # - name: "Ruta prueba, otra vez"
+  #   flow:
+  #     - get:
+  #         url: "/prueba"
+  #         capture:
+  #           - json: "$[1].name"
+  #             as: "nombre"
+  #     - log: "Nombre heroe: {{nombre}}"

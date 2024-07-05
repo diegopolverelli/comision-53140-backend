@@ -1,0 +1,15 @@
+{
+  "name": "saludos20240704",
+  "version": "1.0.3",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Comision 53140",
+  "license": "MIT",
+  "description": "Pruebas",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
