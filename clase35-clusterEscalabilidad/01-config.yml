@@ -1,0 +1,40 @@
+config:
+  # plugins:
+  #   metrics-by-endpoint: {}
+  target: 'http://localhost:3000'
+  phases:
+    - duration: 20
+      arrivalRate: 5
+      name: "Prueba rendimiento Login / Registro"
+scenarios:
+  - name: "Sessions Flow (registro + login)"
+    flow:
+      - log: "Creamos las variables para el usuario de prueba"
+      - get:
+          url: "/usuario"
+          capture:
+            - json: "$.usuario.nombre"
+              as: "nombre"
+            - json: "$.usuario.apellido"
+              as: "apellido"
+            - json: "$.usuario.email"
+              as: "email"
+            - json: "$.usuario.password"
+              as: "password"
+      - log: "Registro de usuario {{nombre}} {{apellido}}"
+      - post:
+          url: "/api/sessions/registro"
+          json:
+            nombre: "{{nombre}}"
+            apellido: "{{apellido}}"
+            email: "{{email}}"
+            password: "{{password}}"
+      - think: 2
+      - log: "Login {{email}}"
+      - post:
+          url: "/api/sessions/login"
+          # headers:
+          #   authorization: "Bearer {{ email }}"
+          json:
+            email: "{{email}}"
+            password: "{{password}}"

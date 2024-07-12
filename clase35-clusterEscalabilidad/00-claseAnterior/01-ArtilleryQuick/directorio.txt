@@ -1,0 +1,1155 @@
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                node_modules
+d----           11/7/2024    16:02                src
+-a---           11/7/2024    19:27              0 directorio.txt
+-a---           11/7/2024    16:02          24953 package-lock.json
+-a---            7/6/2024    15:41            387 package.json
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .bin
+d----           11/7/2024    16:02                accepts
+d----           11/7/2024    16:02                array-flatten
+d----           11/7/2024    16:02                body-parser
+d----           11/7/2024    16:02                bytes
+d----           11/7/2024    16:02                call-bind
+d----           11/7/2024    16:02                content-disposition
+d----           11/7/2024    16:02                content-type
+d----           11/7/2024    16:02                cookie
+d----           11/7/2024    16:02                cookie-signature
+d----           11/7/2024    16:02                debug
+d----           11/7/2024    16:02                define-data-property
+d----           11/7/2024    16:02                depd
+d----           11/7/2024    16:02                destroy
+d----           11/7/2024    16:02                ee-first
+d----           11/7/2024    16:02                encodeurl
+d----           11/7/2024    16:02                escape-html
+d----           11/7/2024    16:02                etag
+d----           11/7/2024    16:02                express
+d----           11/7/2024    16:02                finalhandler
+d----           11/7/2024    16:02                forwarded
+d----           11/7/2024    16:02                fresh
+d----           11/7/2024    16:02                function-bind
+d----           11/7/2024    16:02                get-intrinsic
+d----           11/7/2024    16:02                gopd
+d----           11/7/2024    16:02                has-property-descriptors
+d----           11/7/2024    16:02                has-proto
+d----           11/7/2024    16:02                has-symbols
+d----           11/7/2024    16:02                hasown
+d----           11/7/2024    16:02                http-errors
+d----           11/7/2024    16:02                iconv-lite
+d----           11/7/2024    16:02                inherits
+d----           11/7/2024    16:02                ipaddr.js
+d----           11/7/2024    16:02                media-typer
+d----           11/7/2024    16:02                merge-descriptors
+d----           11/7/2024    16:02                methods
+d----           11/7/2024    16:02                mime
+d----           11/7/2024    16:02                mime-db
+d----           11/7/2024    16:02                mime-types
+d----           11/7/2024    16:02                ms
+d----           11/7/2024    16:02                negotiator
+d----           11/7/2024    16:02                object-inspect
+d----           11/7/2024    16:02                on-finished
+d----           11/7/2024    16:02                parseurl
+d----           11/7/2024    16:02                path-to-regexp
+d----           11/7/2024    16:02                proxy-addr
+d----           11/7/2024    16:02                qs
+d----           11/7/2024    16:02                range-parser
+d----           11/7/2024    16:02                raw-body
+d----           11/7/2024    16:02                safe-buffer
+d----           11/7/2024    16:02                safer-buffer
+d----           11/7/2024    16:02                send
+d----           11/7/2024    16:02                serve-static
+d----           11/7/2024    16:02                set-function-length
+d----           11/7/2024    16:02                setprototypeof
+d----           11/7/2024    16:02                side-channel
+d----           11/7/2024    16:02                statuses
+d----           11/7/2024    16:02                toidentifier
+d----           11/7/2024    16:02                type-is
+d----           11/7/2024    16:02                unpipe
+d----           11/7/2024    16:02                utils-merge
+d----           11/7/2024    16:02                vary
+-a---           11/7/2024    16:02          24783 .package-lock.json
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\.bin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            371 mime
+-a---           11/7/2024    16:02            316 mime.cmd
+-a---           11/7/2024    16:02            769 mime.ps1
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\accepts
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           5096 HISTORY.md
+-a---           11/7/2024    16:02           5252 index.js
+-a---           11/7/2024    16:02           1167 LICENSE
+-a---           11/7/2024    16:02           1157 package.json
+-a---           11/7/2024    16:02           4123 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\array-flatten
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1195 array-flatten.js
+-a---           11/7/2024    16:02           1103 LICENSE
+-a---           11/7/2024    16:02            879 package.json
+-a---           11/7/2024    16:02           1245 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\body-parser
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                lib
+-a---           11/7/2024    16:02          16296 HISTORY.md
+-a---           11/7/2024    16:02           2681 index.js
+-a---           11/7/2024    16:02           1172 LICENSE
+-a---           11/7/2024    16:02           1472 package.json
+-a---           11/7/2024    16:02          18197 README.md
+-a---           11/7/2024    16:02           1193 SECURITY.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\body-parser\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                types
+-a---           11/7/2024    16:02           4325 read.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\body-parser\lib\types
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           5012 json.js
+-a---           11/7/2024    16:02           1884 raw.js
+-a---           11/7/2024    16:02           2285 text.js
+-a---           11/7/2024    16:02           5797 urlencoded.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\bytes
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1775 History.md
+-a---           11/7/2024    16:02           3613 index.js
+-a---           11/7/2024    16:02           1153 LICENSE
+-a---           11/7/2024    16:02            959 package.json
+-a---           11/7/2024    16:02           4770 Readme.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\call-bind
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02             10 .eslintignore
+-a---           11/7/2024    16:02            208 .eslintrc
+-a---           11/7/2024    16:02            139 .nycrc
+-a---           11/7/2024    16:02            413 callBound.js
+-a---           11/7/2024    16:02           7038 CHANGELOG.md
+-a---           11/7/2024    16:02           1212 index.js
+-a---           11/7/2024    16:02           1071 LICENSE
+-a---           11/7/2024    16:02           2208 package.json
+-a---           11/7/2024    16:02           2026 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\call-bind\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            580 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\call-bind\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           2349 callBound.js
+-a---           11/7/2024    16:02           3839 index.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\content-disposition
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1020 HISTORY.md
+-a---           11/7/2024    16:02          10594 index.js
+-a---           11/7/2024    16:02           1094 LICENSE
+-a---           11/7/2024    16:02           1200 package.json
+-a---           11/7/2024    16:02           5205 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\content-type
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            523 HISTORY.md
+-a---           11/7/2024    16:02           5002 index.js
+-a---           11/7/2024    16:02           1089 LICENSE
+-a---           11/7/2024    16:02           1075 package.json
+-a---           11/7/2024    16:02           2782 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\cookie
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           3120 HISTORY.md
+-a---           11/7/2024    16:02           5224 index.js
+-a---           11/7/2024    16:02           1175 LICENSE
+-a---           11/7/2024    16:02           1140 package.json
+-a---           11/7/2024    16:02          11298 README.md
+-a---           11/7/2024    16:02           1180 SECURITY.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\cookie-signature
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02             29 .npmignore
+-a---           11/7/2024    16:02            695 History.md
+-a---           11/7/2024    16:02           1230 index.js
+-a---           11/7/2024    16:02            492 package.json
+-a---           11/7/2024    16:02           1490 Readme.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\debug
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                src
+-a---           11/7/2024    16:02             46 .coveralls.yml
+-a---           11/7/2024    16:02            180 .eslintrc
+-a---           11/7/2024    16:02             72 .npmignore
+-a---           11/7/2024    16:02            140 .travis.yml
+-a---           11/7/2024    16:02          11707 CHANGELOG.md
+-a---           11/7/2024    16:02            321 component.json
+-a---           11/7/2024    16:02           1736 karma.conf.js
+-a---           11/7/2024    16:02           1107 LICENSE
+-a---           11/7/2024    16:02           1059 Makefile
+-a---           11/7/2024    16:02             40 node.js
+-a---           11/7/2024    16:02           1138 package.json
+-a---           11/7/2024    16:02          17918 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\debug\src
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           4734 browser.js
+-a---           11/7/2024    16:02           4394 debug.js
+-a---           11/7/2024    16:02            263 index.js
+-a---           11/7/2024    16:02            373 inspector-log.js
+-a---           11/7/2024    16:02           6015 node.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\define-data-property
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02            291 .eslintrc
+-a---           11/7/2024    16:02            216 .nycrc
+-a---           11/7/2024    16:02           2883 CHANGELOG.md
+-a---           11/7/2024    16:02            275 index.d.ts
+-a---           11/7/2024    16:02            235 index.d.ts.map
+-a---           11/7/2024    16:02           2838 index.js
+-a---           11/7/2024    16:02           1071 LICENSE
+-a---           11/7/2024    16:02           3082 package.json
+-a---           11/7/2024    16:02           2431 README.md
+-a---           11/7/2024    16:02           4883 tsconfig.json
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\define-data-property\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            591 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\define-data-property\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02          10444 index.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\depd
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                lib
+-a---           11/7/2024    16:02           2256 History.md
+-a---           11/7/2024    16:02          10932 index.js
+-a---           11/7/2024    16:02           1094 LICENSE
+-a---           11/7/2024    16:02           1335 package.json
+-a---           11/7/2024    16:02           9988 Readme.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\depd\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                browser
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\depd\lib\browser
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1512 index.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\destroy
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           4258 index.js
+-a---           11/7/2024    16:02           1173 LICENSE
+-a---           11/7/2024    16:02           1128 package.json
+-a---           11/7/2024    16:02           2459 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\ee-first
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1684 index.js
+-a---           11/7/2024    16:02           1099 LICENSE
+-a---           11/7/2024    16:02            859 package.json
+-a---           11/7/2024    16:02           2617 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\encodeurl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            238 HISTORY.md
+-a---           11/7/2024    16:02           1586 index.js
+-a---           11/7/2024    16:02           1089 LICENSE
+-a---           11/7/2024    16:02           1091 package.json
+-a---           11/7/2024    16:02           3855 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\escape-html
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1362 index.js
+-a---           11/7/2024    16:02           1157 LICENSE
+-a---           11/7/2024    16:02            434 package.json
+-a---           11/7/2024    16:02            707 Readme.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\etag
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1732 HISTORY.md
+-a---           11/7/2024    16:02           2479 index.js
+-a---           11/7/2024    16:02           1094 LICENSE
+-a---           11/7/2024    16:02           1306 package.json
+-a---           11/7/2024    16:02           4198 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\express
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                lib
+-a---           11/7/2024    16:02         113107 History.md
+-a---           11/7/2024    16:02            224 index.js
+-a---           11/7/2024    16:02           1249 LICENSE
+-a---           11/7/2024    16:02           2624 package.json
+-a---           11/7/2024    16:02           5419 Readme.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\express\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                middleware
+d----           11/7/2024    16:02                router
+-a---           11/7/2024    16:02          14593 application.js
+-a---           11/7/2024    16:02           2409 express.js
+-a---           11/7/2024    16:02          12505 request.js
+-a---           11/7/2024    16:02          28014 response.js
+-a---           11/7/2024    16:02           5955 utils.js
+-a---           11/7/2024    16:02           3325 view.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\express\lib\middleware
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            853 init.js
+-a---           11/7/2024    16:02            885 query.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\express\lib\router
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02          15124 index.js
+-a---           11/7/2024    16:02           3296 layer.js
+-a---           11/7/2024    16:02           4281 route.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\finalhandler
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           4292 HISTORY.md
+-a---           11/7/2024    16:02           6689 index.js
+-a---           11/7/2024    16:02           1119 LICENSE
+-a---           11/7/2024    16:02           1207 package.json
+-a---           11/7/2024    16:02           4133 README.md
+-a---           11/7/2024    16:02           1202 SECURITY.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\forwarded
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            400 HISTORY.md
+-a---           11/7/2024    16:02           1578 index.js
+-a---           11/7/2024    16:02           1094 LICENSE
+-a---           11/7/2024    16:02           1150 package.json
+-a---           11/7/2024    16:02           1654 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\fresh
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1500 HISTORY.md
+-a---           11/7/2024    16:02           2711 index.js
+-a---           11/7/2024    16:02           1174 LICENSE
+-a---           11/7/2024    16:02           1357 package.json
+-a---           11/7/2024    16:02           3374 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\function-bind
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02            253 .eslintrc
+-a---           11/7/2024    16:02            216 .nycrc
+-a---           11/7/2024    16:02          13812 CHANGELOG.md
+-a---           11/7/2024    16:02           2043 implementation.js
+-a---           11/7/2024    16:02            126 index.js
+-a---           11/7/2024    16:02           1052 LICENSE
+-a---           11/7/2024    16:02           2262 package.json
+-a---           11/7/2024    16:02           1755 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\function-bind\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            584 FUNDING.yml
+-a---           11/7/2024    16:02            157 SECURITY.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\function-bind\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            176 .eslintrc
+-a---           11/7/2024    16:02           8991 index.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\get-intrinsic
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02            603 .eslintrc
+-a---           11/7/2024    16:02            139 .nycrc
+-a---           11/7/2024    16:02          10238 CHANGELOG.md
+-a---           11/7/2024    16:02          13326 index.js
+-a---           11/7/2024    16:02           1071 LICENSE
+-a---           11/7/2024    16:02           2377 package.json
+-a---           11/7/2024    16:02           2791 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\get-intrinsic\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            584 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\get-intrinsic\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           8767 GetIntrinsic.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\gopd
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02            224 .eslintrc
+-a---           11/7/2024    16:02           1541 CHANGELOG.md
+-a---           11/7/2024    16:02            263 index.js
+-a---           11/7/2024    16:02           1071 LICENSE
+-a---           11/7/2024    16:02           1877 package.json
+-a---           11/7/2024    16:02           1562 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\gopd\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            575 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\gopd\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            590 index.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\has-property-descriptors
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02            173 .eslintrc
+-a---           11/7/2024    16:02            139 .nycrc
+-a---           11/7/2024    16:02           2063 CHANGELOG.md
+-a---           11/7/2024    16:02            817 index.js
+-a---           11/7/2024    16:02           1067 LICENSE
+-a---           11/7/2024    16:02           2085 package.json
+-a---           11/7/2024    16:02           2206 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\has-property-descriptors\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            595 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\has-property-descriptors\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1405 index.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\has-proto
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02             43 .eslintrc
+-a---           11/7/2024    16:02           1304 CHANGELOG.md
+-a---           11/7/2024    16:02            197 index.js
+-a---           11/7/2024    16:02           1067 LICENSE
+-a---           11/7/2024    16:02           1904 package.json
+-a---           11/7/2024    16:02           1623 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\has-proto\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            580 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\has-proto\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            477 index.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\has-symbols
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02            164 .eslintrc
+-a---           11/7/2024    16:02            139 .nycrc
+-a---           11/7/2024    16:02           7690 CHANGELOG.md
+-a---           11/7/2024    16:02            420 index.js
+-a---           11/7/2024    16:02           1071 LICENSE
+-a---           11/7/2024    16:02           2648 package.json
+-a---           11/7/2024    16:02           2044 README.md
+-a---           11/7/2024    16:02           1761 shams.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\has-symbols\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            582 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\has-symbols\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                shams
+-a---           11/7/2024    16:02            654 index.js
+-a---           11/7/2024    16:02           2021 tests.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\has-symbols\test\shams
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            723 core-js.js
+-a---           11/7/2024    16:02            686 get-own-property-symbols.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\hasown
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+-a---           11/7/2024    16:02             43 .eslintrc
+-a---           11/7/2024    16:02            216 .nycrc
+-a---           11/7/2024    16:02            904 CHANGELOG.md
+-a---           11/7/2024    16:02            117 index.d.ts
+-a---           11/7/2024    16:02            117 index.d.ts.map
+-a---           11/7/2024    16:02            234 index.js
+-a---           11/7/2024    16:02           1083 LICENSE
+-a---           11/7/2024    16:02           2347 package.json
+-a---           11/7/2024    16:02           1613 README.md
+-a---           11/7/2024    16:02           3611 tsconfig.json
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\hasown\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            552 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\http-errors
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           3973 HISTORY.md
+-a---           11/7/2024    16:02           6391 index.js
+-a---           11/7/2024    16:02           1168 LICENSE
+-a---           11/7/2024    16:02           1314 package.json
+-a---           11/7/2024    16:02           5962 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\iconv-lite
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                encodings
+d----           11/7/2024    16:02                lib
+-a---           11/7/2024    16:02           4342 Changelog.md
+-a---           11/7/2024    16:02           1064 LICENSE
+-a---           11/7/2024    16:02           1227 package.json
+-a---           11/7/2024    16:02           6534 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\iconv-lite\encodings
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                tables
+-a---           11/7/2024    16:02          21415 dbcs-codec.js
+-a---           11/7/2024    16:02           8291 dbcs-data.js
+-a---           11/7/2024    16:02            710 index.js
+-a---           11/7/2024    16:02           6115 internal.js
+-a---           11/7/2024    16:02           2191 sbcs-codec.js
+-a---           11/7/2024    16:02          32034 sbcs-data-generated.js
+-a---           11/7/2024    16:02           4686 sbcs-data.js
+-a---           11/7/2024    16:02           5011 utf16.js
+-a---           11/7/2024    16:02           9215 utf7.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\iconv-lite\encodings\tables
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02          17717 big5-added.json
+-a---           11/7/2024    16:02          47320 cp936.json
+-a---           11/7/2024    16:02          38122 cp949.json
+-a---           11/7/2024    16:02          42356 cp950.json
+-a---           11/7/2024    16:02          41064 eucjp.json
+-a---           11/7/2024    16:02           2216 gb18030-ranges.json
+-a---           11/7/2024    16:02           1227 gbk-added.json
+-a---           11/7/2024    16:02          23782 shiftjis.json
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\iconv-lite\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1109 bom-handling.js
+-a---           11/7/2024    16:02           8701 extend-node.js
+-a---           11/7/2024    16:02            982 index.d.ts
+-a---           11/7/2024    16:02           5123 index.js
+-a---           11/7/2024    16:02           3387 streams.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\inherits
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            753 inherits_browser.js
+-a---           11/7/2024    16:02            250 inherits.js
+-a---           11/7/2024    16:02            749 LICENSE
+-a---           11/7/2024    16:02            581 package.json
+-a---           11/7/2024    16:02           1625 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\ipaddr.js
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                lib
+-a---           11/7/2024    16:02           9738 ipaddr.min.js
+-a---           11/7/2024    16:02           1087 LICENSE
+-a---           11/7/2024    16:02            719 package.json
+-a---           11/7/2024    16:02           8309 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\ipaddr.js\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02          19333 ipaddr.js
+-a---           11/7/2024    16:02           2959 ipaddr.js.d.ts
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\media-typer
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            461 HISTORY.md
+-a---           11/7/2024    16:02           6375 index.js
+-a---           11/7/2024    16:02           1089 LICENSE
+-a---           11/7/2024    16:02            759 package.json
+-a---           11/7/2024    16:02           2371 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\merge-descriptors
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            363 HISTORY.md
+-a---           11/7/2024    16:02           1215 index.js
+-a---           11/7/2024    16:02           1167 LICENSE
+-a---           11/7/2024    16:02            931 package.json
+-a---           11/7/2024    16:02           1213 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\methods
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            427 HISTORY.md
+-a---           11/7/2024    16:02           1040 index.js
+-a---           11/7/2024    16:02           1180 LICENSE
+-a---           11/7/2024    16:02            947 package.json
+-a---           11/7/2024    16:02           1694 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\mime
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                src
+-a---           11/7/2024    16:02              0 .npmignore
+-a---           11/7/2024    16:02           9473 CHANGELOG.md
+-a---           11/7/2024    16:02            149 cli.js
+-a---           11/7/2024    16:02           1098 LICENSE
+-a---           11/7/2024    16:02           2726 mime.js
+-a---           11/7/2024    16:02            933 package.json
+-a---           11/7/2024    16:02           2119 README.md
+-a---           11/7/2024    16:02          31555 types.json
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\mime\src
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1351 build.js
+-a---           11/7/2024    16:02           2334 test.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\mime-db
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02         185882 db.json
+-a---           11/7/2024    16:02          12581 HISTORY.md
+-a---           11/7/2024    16:02            189 index.js
+-a---           11/7/2024    16:02           1172 LICENSE
+-a---           11/7/2024    16:02           1624 package.json
+-a---           11/7/2024    16:02           4091 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\mime-types
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           8812 HISTORY.md
+-a---           11/7/2024    16:02           3663 index.js
+-a---           11/7/2024    16:02           1167 LICENSE
+-a---           11/7/2024    16:02           1149 package.json
+-a---           11/7/2024    16:02           3481 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\ms
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           2764 index.js
+-a---           11/7/2024    16:02           1077 license.md
+-a---           11/7/2024    16:02            704 package.json
+-a---           11/7/2024    16:02           1721 readme.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\negotiator
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                lib
+-a---           11/7/2024    16:02           2499 HISTORY.md
+-a---           11/7/2024    16:02           2451 index.js
+-a---           11/7/2024    16:02           1177 LICENSE
+-a---           11/7/2024    16:02            993 package.json
+-a---           11/7/2024    16:02           4901 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\negotiator\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           3081 charset.js
+-a---           11/7/2024    16:02           3506 encoding.js
+-a---           11/7/2024    16:02           3409 language.js
+-a---           11/7/2024    16:02           5358 mediaType.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\object-inspect
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                example
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02           1298 .eslintrc
+-a---           11/7/2024    16:02            236 .nycrc
+-a---           11/7/2024    16:02          33226 CHANGELOG.md
+-a---           11/7/2024    16:02          18882 index.js
+-a---           11/7/2024    16:02           1071 LICENSE
+-a---           11/7/2024    16:02            365 package-support.json
+-a---           11/7/2024    16:02           2702 package.json
+-a---           11/7/2024    16:02           2934 readme.markdown
+-a---           11/7/2024    16:02            534 test-core-js.js
+-a---           11/7/2024    16:02             42 util.inspect.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\object-inspect\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            585 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\object-inspect\example
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            391 all.js
+-a---           11/7/2024    16:02            116 circular.js
+-a---           11/7/2024    16:02            126 fn.js
+-a---           11/7/2024    16:02            251 inspect.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\object-inspect\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                browser
+-a---           11/7/2024    16:02           2082 bigint.js
+-a---           11/7/2024    16:02            451 circular.js
+-a---           11/7/2024    16:02            400 deep.js
+-a---           11/7/2024    16:02           1575 element.js
+-a---           11/7/2024    16:02           1536 err.js
+-a---           11/7/2024    16:02            683 fakes.js
+-a---           11/7/2024    16:02           2227 fn.js
+-a---           11/7/2024    16:02            372 global.js
+-a---           11/7/2024    16:02            514 has.js
+-a---           11/7/2024    16:02            255 holes.js
+-a---           11/7/2024    16:02           6633 indent-option.js
+-a---           11/7/2024    16:02           4946 inspect.js
+-a---           11/7/2024    16:02            268 lowbyte.js
+-a---           11/7/2024    16:02           2312 number.js
+-a---           11/7/2024    16:02            933 quoteStyle.js
+-a---           11/7/2024    16:02           1546 toStringTag.js
+-a---           11/7/2024    16:02            302 undef.js
+-a---           11/7/2024    16:02           7034 values.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\object-inspect\test\browser
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            416 dom.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\on-finished
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1865 HISTORY.md
+-a---           11/7/2024    16:02           4430 index.js
+-a---           11/7/2024    16:02           1167 LICENSE
+-a---           11/7/2024    16:02           1057 package.json
+-a---           11/7/2024    16:02           5160 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\parseurl
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1043 HISTORY.md
+-a---           11/7/2024    16:02           2809 index.js
+-a---           11/7/2024    16:02           1173 LICENSE
+-a---           11/7/2024    16:02           1180 package.json
+-a---           11/7/2024    16:02           4094 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\path-to-regexp
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            694 History.md
+-a---           11/7/2024    16:02           3328 index.js
+-a---           11/7/2024    16:02           1103 LICENSE
+-a---           11/7/2024    16:02            554 package.json
+-a---           11/7/2024    16:02           1102 Readme.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\proxy-addr
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           2991 HISTORY.md
+-a---           11/7/2024    16:02           6000 index.js
+-a---           11/7/2024    16:02           1094 LICENSE
+-a---           11/7/2024    16:02           1183 package.json
+-a---           11/7/2024    16:02           4131 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\qs
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                dist
+d----           11/7/2024    16:02                lib
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02            569 .editorconfig
+-a---           11/7/2024    16:02           1025 .eslintrc
+-a---           11/7/2024    16:02            216 .nycrc
+-a---           11/7/2024    16:02          29661 CHANGELOG.md
+-a---           11/7/2024    16:02           1600 LICENSE.md
+-a---           11/7/2024    16:02           2317 package.json
+-a---           11/7/2024    16:02          20966 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\qs\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            548 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\qs\dist
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02          69136 qs.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\qs\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            476 formats.js
+-a---           11/7/2024    16:02            211 index.js
+-a---           11/7/2024    16:02           9380 parse.js
+-a---           11/7/2024    16:02          10358 stringify.js
+-a---           11/7/2024    16:02           6823 utils.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\qs\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02          35871 parse.js
+-a---           11/7/2024    16:02          35186 stringify.js
+-a---           11/7/2024    16:02           5112 utils.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\range-parser
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            917 HISTORY.md
+-a---           11/7/2024    16:02           2900 index.js
+-a---           11/7/2024    16:02           1178 LICENSE
+-a---           11/7/2024    16:02           1184 package.json
+-a---           11/7/2024    16:02           2278 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\raw-body
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           5962 HISTORY.md
+-a---           11/7/2024    16:02           2286 index.d.ts
+-a---           11/7/2024    16:02           6902 index.js
+-a---           11/7/2024    16:02           1181 LICENSE
+-a---           11/7/2024    16:02           1324 package.json
+-a---           11/7/2024    16:02           6534 README.md
+-a---           11/7/2024    16:02           1188 SECURITY.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\safe-buffer
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           8738 index.d.ts
+-a---           11/7/2024    16:02           1670 index.js
+-a---           11/7/2024    16:02           1081 LICENSE
+-a---           11/7/2024    16:02           1057 package.json
+-a---           11/7/2024    16:02          19555 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\safer-buffer
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1483 dangerous.js
+-a---           11/7/2024    16:02           1094 LICENSE
+-a---           11/7/2024    16:02            822 package.json
+-a---           11/7/2024    16:02          12794 Porting-Buffer.md
+-a---           11/7/2024    16:02           8261 Readme.md
+-a---           11/7/2024    16:02           2110 safer.js
+-a---           11/7/2024    16:02          15735 tests.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\send
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                node_modules
+-a---           11/7/2024    16:02          13301 HISTORY.md
+-a---           11/7/2024    16:02          23502 index.js
+-a---           11/7/2024    16:02           1128 LICENSE
+-a---           11/7/2024    16:02           1571 package.json
+-a---           11/7/2024    16:02           9476 README.md
+-a---           11/7/2024    16:02           1170 SECURITY.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\send\node_modules
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                ms
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\send\node_modules\ms
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           3024 index.js
+-a---           11/7/2024    16:02           1079 license.md
+-a---           11/7/2024    16:02            732 package.json
+-a---           11/7/2024    16:02           1886 readme.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\serve-static
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02          10537 HISTORY.md
+-a---           11/7/2024    16:02           4570 index.js
+-a---           11/7/2024    16:02           1189 LICENSE
+-a---           11/7/2024    16:02           1141 package.json
+-a---           11/7/2024    16:02           7812 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\set-function-length
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+-a---           11/7/2024    16:02            404 .eslintrc
+-a---           11/7/2024    16:02            216 .nycrc
+-a---           11/7/2024    16:02           2319 CHANGELOG.md
+-a---           11/7/2024    16:02            707 env.js
+-a---           11/7/2024    16:02           1170 index.js
+-a---           11/7/2024    16:02           1083 LICENSE
+-a---           11/7/2024    16:02           2141 package.json
+-a---           11/7/2024    16:02           2167 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\set-function-length\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            563 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\setprototypeof
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02             93 index.d.ts
+-a---           11/7/2024    16:02            407 index.js
+-a---           11/7/2024    16:02            727 LICENSE
+-a---           11/7/2024    16:02           1264 package.json
+-a---           11/7/2024    16:02            844 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\setprototypeof\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            690 index.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\side-channel
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                .github
+d----           11/7/2024    16:02                test
+-a---           11/7/2024    16:02             10 .eslintignore
+-a---           11/7/2024    16:02            172 .eslintrc
+-a---           11/7/2024    16:02            216 .nycrc
+-a---           11/7/2024    16:02           5607 CHANGELOG.md
+-a---           11/7/2024    16:02           3391 index.js
+-a---           11/7/2024    16:02           1071 LICENSE
+-a---           11/7/2024    16:02           1676 package.json
+-a---           11/7/2024    16:02             98 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\side-channel\.github
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            583 FUNDING.yml
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\side-channel\test
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1741 index.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\statuses
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           1789 codes.json
+-a---           11/7/2024    16:02           1546 HISTORY.md
+-a---           11/7/2024    16:02           2610 index.js
+-a---           11/7/2024    16:02           1172 LICENSE
+-a---           11/7/2024    16:02           1440 package.json
+-a---           11/7/2024    16:02           3559 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\toidentifier
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            128 HISTORY.md
+-a---           11/7/2024    16:02            504 index.js
+-a---           11/7/2024    16:02           1108 LICENSE
+-a---           11/7/2024    16:02           1142 package.json
+-a---           11/7/2024    16:02           1803 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\type-is
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02           5447 HISTORY.md
+-a---           11/7/2024    16:02           5562 index.js
+-a---           11/7/2024    16:02           1172 LICENSE
+-a---           11/7/2024    16:02           1133 package.json
+-a---           11/7/2024    16:02           5183 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\unpipe
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02             59 HISTORY.md
+-a---           11/7/2024    16:02           1118 index.js
+-a---           11/7/2024    16:02           1114 LICENSE
+-a---           11/7/2024    16:02            770 package.json
+-a---           11/7/2024    16:02           1250 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\utils-merge
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02             79 .npmignore
+-a---           11/7/2024    16:02            381 index.js
+-a---           11/7/2024    16:02           1084 LICENSE
+-a---           11/7/2024    16:02            857 package.json
+-a---           11/7/2024    16:02           1319 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\node_modules\vary
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    16:02            792 HISTORY.md
+-a---           11/7/2024    16:02           2930 index.js
+-a---           11/7/2024    16:02           1094 LICENSE
+-a---           11/7/2024    16:02           1215 package.json
+-a---           11/7/2024    16:02           2716 README.md
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\src
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           11/7/2024    16:02                routes
+-a---            7/6/2024    15:41            348 app.js
+
+    Directory: C:\Users\diego\dev\Coder-53140\clases\clase35-clustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick\src\routes
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           11/7/2024    19:24           1566 pruebaRouter.js
+

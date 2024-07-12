@@ -1,0 +1,71 @@
+config:
+  # plugins:
+  #   metrics-by-endpoint: {}
+  target: 'http://localhost:3000'
+  phases:
+    - duration: 20
+      arrivalRate: 5
+      name: "Prueba rendimiento Login / Registro"
+    # - duration: 10
+    #   arrivalRate: 10
+    #   rampTo: 15
+    #   name: "Segundo tramo prueba rendimiento Login / Registro"
+    # - duration: 10
+    #   arrivalRate: 15
+    #   # rampTo: 20
+    #   name: "Tercer tramo prueba rendimiento Login / Registro"
+  processor: "./02-funcionesEjVarios.cjs"
+scenarios:
+  - name: "Sessions Flow (registro + login)"
+    flow:
+      - post:
+          url: "/leeheader"
+          headers:
+            authorization: "Bearer + token que capturo previamente... "
+          json:
+            dato01: "dato enviado por body"
+            dato02: "otro dato enviado, de nuevo por body"
+          cookie:
+            coderCookie: "cookie de pruebas, simulada desde Artillery...!!!"
+      - get:
+          url: "/prueba"
+          capture:
+            - json: "$[0].name"
+              as: "nombre1"
+            - json: "$[1].name"
+              as: "nombre2"
+            - header: "content-type"
+              as: "contenido" 
+            - header: "set-cookie"
+              as: "cookies" 
+          afterResponse: "logHeaders"
+      - log: "Nombre tomado de ruta /prueba: {{nombre1}} / {{nombre2}} - Contenido: {{contenido}}"
+      - log: "Cookies: {{cookies}} / Cookie leida: {{cookieLeida}}"
+      - log: "Cookie leida con la funcion: {{cookieLeida}}"
+      # - log: "Creamos las variables para el usuario de prueba"
+      - get:
+          url: "/usuario"
+          capture:
+            - json: "$.usuario.nombre"
+              as: "nombre"
+            - json: "$.usuario.apellido"
+              as: "apellido"
+            - json: "$.usuario.email"
+              as: "email"
+            - json: "$.usuario.password"
+              as: "password"
+      # - log: "Registro de usuario {{nombre}} {{apellido}}"
+      - post:
+          url: "/api/sessions/registro"
+          json:
+            nombre: "{{nombre}}"
+            apellido: "{{apellido}}"
+            email: "{{email}}"
+            password: "{{password}}"
+      - think: 2
+      # - log: "Login {{email}}"
+      - post:
+          url: "/api/sessions/login"
+          json:
+            email: "{{email}}"
+            password: "{{password}}"

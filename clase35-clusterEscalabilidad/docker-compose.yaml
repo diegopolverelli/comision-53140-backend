@@ -1,0 +1,18 @@
+services:
+  crud-users:
+    build: .
+    restart: always
+    ports:
+      - "3000:3000"
+# En el backend, al conectar con mongoDB, hay que utilizar como nombre
+# de host, el indicado en el servicio de la DB. En este caso db. 
+# Quedaría así:
+# await mongoose.connect('mongodb://db:27017/clase35')
+  db:
+    image: mongo:5
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo:/data/db
+    
