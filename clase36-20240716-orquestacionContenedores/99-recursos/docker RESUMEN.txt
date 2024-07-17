@@ -1,0 +1,61 @@
+// 1- ejemplo para crear un volumen Volumen01, en un path determinado:
+docker volume create Volumen002 --opt type=none --opt o=bind --opt device="C:\Users\diego\dev\Varios\DockerVolumenes\datosVolumen002"
+
+// chequear el volumen creado
+docker volume inspect my-volume
+
+// 2- buscar imagenes de mysql (puede omitirse), y bajarlas al equipo (pull):
+docker search mysql
+docker pull mysql
+
+// 3- correr una imagen de MySql, indicando un volumen previamente creado:
+// (–p n:m, donde n es el puerto que se expone al exterior del contenedor, 
+// y m un puerto determinado característico de la imagen)
+docker run --name server-mysql -e MYSQL_ROOT_PASSWORD=123 -p 3306:3306 -d -v Volumen002:/var/lib/mysql mysql
+
+// 4- iniciar el modo interactivo del contenedor MySql:
+docker exec -it server-mysql mysql -uroot -p
+
+// 5- Mostrar bases de datos:
+SHOW DATABASES;
+
+// 6- crear db:
+CREATE DATABASE pruebadiego;
+
+// 7- crear tabla dentro de db:
+use pruebaDiego;
+CREATE TABLE usuarios (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  nombre VARCHAR(50) NOT NULL,
+  email VARCHAR(100) NOT NULL
+);
+
+MONGODB:
+// crear contenedor a partir de imagen, con datos en disco local, en volumenes previamente creados:
+// (tiene 2 carpetas con las que trabaja, por eso los 2 "-v")
+docker run --name server-mongo -p 27017:27017 -d -v VolumenMongoData:/data/db -v VolumenMongoConfig:/data/configdb mongo
+
+
+
+// ingresar a MongoDB vía mongoshell:
+mongosh mongodb://127.0.0.1:27017/pruebas_mongo
+
+
+ENTORNOS INTERACTIVOS (-it para interactivo, --rm para eliminar el contenedor una vez que se cierra):
+docker run -it --rm -v "C:/Users/diego/dev/Coderhouse/DesafiosBackend-main/Extras/Clase 16 - SQL Node/pruebas/Docker/datosNode:/app/" node
+
+
+
+// DOCKER:
+// Generar imagen DOCKER a partir de un proyecto (archivo Dockerfile)
+docker build -t nombreImagen .
+// (el . es importante... indica directorio actual; alternativamente, 
+// path donde se encuentra Dockerfile)
+
+// Correr una imagen previamente generada:
+docker run --name server-mysql -e MYSQL_ROOT_PASSWORD=123 -p 3306:3306 -d -v Volumen002:/var/lib/mysql mysql
+docker run --name app01-Contenedor01 -p 3000:3000 nombreImagen
+docker run --name app01-Contenedor02 -p 3001:3000 nombreImagen
+
+// (–p n:m, donde n es el puerto que se expone al exterior del contenedor, 
+// y m un puerto determinado característico de la imagen)

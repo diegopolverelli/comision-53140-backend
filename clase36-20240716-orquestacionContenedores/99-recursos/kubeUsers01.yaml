@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: usersdeploy
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: userspods
+  template:
+    metadata:
+      labels:
+        app: userspods
+    spec:
+      containers:
+        - name: usercontainer
+          image: diegopolverelli/app-prueba20240225:1.0.0
+          ports:
+            - containerPort: 3000
+          env:
+            - name: PORT
+              value: "3000"
+            - name: MONGO_URL
+              value: mongodb+srv://backend49975:CoderCoder@cluster0.dxc9fdl.mongodb.net/?retryWrites=true&w=majority
+            - name: DB_NAME
+              value: clase36
+          imagePullPolicy: Always

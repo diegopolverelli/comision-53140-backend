@@ -1,0 +1,91 @@
+minikube dashboard
+minikube service list
+minikube service <servicioQueQuieroLanzar>
+
+https://kubernetes.io/es/
+https://kubernetes.io/es/docs/tasks/tools/included/install-kubectl-windows/
+https://kubernetes.io/docs/reference/kubectl/
+https://kubernetes.io/docs/tasks/tools/#kubectl
+https://kubernetes.io/docs/reference/kubectl/quick-reference/
+
+kubectl apply -f kubeUsers01.yaml
+
+kubectl cluster-info 
+
+kubectl get deployments
+kubectl describe deployments
+
+kubectl get pods
+kubectl describe pods
+
+kubectl get services
+kubectl describe services
+
+kubectl logs -f deploy01abmusuarios-85b94cc98-8dxhg (nombre POD)
+
+Archivo yml:
+La línea apiVersion: apps/v1 en un archivo YAML de Kubernetes especifica la versión 
+de la API de Kubernetes que se utilizará para interpretar el resto del documento. 
+En este caso, apps/v1 indica que estás utilizando la versión 1 de la API de 
+aplicaciones de Kubernetes.
+https://kubernetes.io/docs/concepts/overview/kubernetes-api/
+
+
+Pasos:
+1) Verificar proyecto: start scrip, dotenv, etc.
+
+2) crear imagen a partir de Dockerfile: 
+docker build -t nombreImagen .
+
+3) probar contenedor para validar su correcto funcionamiento
+docker run --name app01-01 -p 3000:3000 nombreImagen
+
+4) renombrar imagen, para adaptarla a lo que necesita DockerHub:
+docker tag app-prueba2 diegopolverelli/app-prueba2:1.0.0
+
+5) loguearme en Dockerhub:
+docker login
+
+6) subir imagen a Dockerhub:
+docker push diegopolverelli/app-prueba2:1.0.0
+
+7) descargar kubectl, instalarlo, y probarlo *:
+kubectl version --client
+
+8) descargar minikube
+
+9) inicializarlo (con Docker Desktop encendido):
+minikube start
+
+10) probar la conexión al cluster con kubectl:
+kubectl cluster-info 
+kubectl get deployments
+kubectl describe deployments
+kubectl get pods
+kubectl get services
+
+11) generar archivo de configuración de deployment / service (.yaml)
+y ejecutarlo:
+kubectl apply -f kubeUsers01.yaml
+
+12) probar con kubectl si funcionó:
+kubectl get deployments / pods /services
+
+13) Ejecutar con minikube, el servicio creado:
+minikube service list
+minikube service <servicioQueQuieroLanzar>
+
+14) Otros: 
+- abrir tablero de comandos minikube: 
+    minikube dashboard
+- ver logs desde CLI (PowerShell):
+    kubectl logs -f deploy01abmusuarios-85b94cc98-8dxhg (nombre POD)
+
+
+
+* minikube trae una versión de kubectl, que se ejecuta de esta forma:
+minikube kubectl -- get pods
+minikube kubectl -- get services
+minikube kubectl -- get deployments
+minikube kubectl apply -- -f kubeUsers02.yaml
+minikube kubectl version -- --client
