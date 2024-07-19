@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Stream</title>
+</head>
+<body>
+    <h2>Prueba de consultas a Gemini IA:</h2>
+    <hr>
+    <!-- <p>Revise la consola, en las herramientas de desarrollo</p> -->
+    <input type="text" style="width: 500px;" id="prompt" placeholder="ingrese su consulta para la ia">
+    <br><br>
+    <a href="#" id="aDatos">Procesar</a>
+    <br>
+    <a href="#" id="aBorrar">Borrar</a>
+    <br><br>
+    <div id="datos" style="height: 150px; max-height: 150px; border: 1px solid black; overflow:scroll;"></div>
+
+    <script>
+        let inputPrompt=document.getElementById("prompt")
+        let divDatos=document.getElementById("datos")
+        let aDatos=document.getElementById("aDatos")
+        let aBorrar=document.getElementById("aBorrar")
+
+        aBorrar.addEventListener("click", e=>{
+            e.preventDefault()
+            divDatos.textContent=""
+            inputPrompt.value=""
+            inputPrompt.focus()
+        })
+
+        aDatos.addEventListener("click", async(e)=>{
+            e.preventDefault()
+            divDatos.textContent=""
+
+            if(inputPrompt.value.trim().length===0){
+                alert("Ingrese una consulta...!!!")
+                return 
+            }
+
+            const resp=await fetch(`/gemini?prompt=${inputPrompt.value.trim()}"`)
+            const reader=resp.body.getReader()
+            if(!reader){
+                console.log("Error al generar reader... :(")
+                divDatos.textContent="Error al generar datos... :("
+                return null
+            }
+
+            const decoder=new TextDecoder()
+            let texto =""
+
+            while(true){
+                const {value, done}=await reader.read()
+                if(done){
+                    console.log("Recibió el done...!!!")
+                    break
+                }
+
+                const decodedChunk=decoder.decode(value, {stream:true})
+                texto+=decodedChunk
+                divDatos.textContent=texto
+                console.log(decodedChunk)
+            }
+        })
+    </script>
+</body>
+</html>
+
+

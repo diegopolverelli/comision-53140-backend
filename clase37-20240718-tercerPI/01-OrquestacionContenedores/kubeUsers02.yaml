@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: usersservice
+spec:
+  selector:
+    app: userspods
+  ports:
+    - port: 3000
+      targetPort: 3000
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: usersdeploy
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: userspods
+  template:
+    metadata:
+      labels:
+        app: userspods
+    spec:
+      containers:
+        - name: usercontainer
+          image: diegopolverelli/app-users-53140:1.0.0
+          ports:
+            - containerPort: 3000
+          env:
+            - name: PORT
+              value: "3000"
+            - name: MONGO_URL
+              value: mongodb+srv://backend53140:CoderCoder@cluster0.5cr4g2l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+            - name: DB_NAME
+              value: clase36
+          imagePullPolicy: Always
