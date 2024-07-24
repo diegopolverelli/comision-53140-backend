@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Envio de correos:</h2>
+    <hr>
+    <form action="/mail" method="post" enctype="multipart/form-data">
+        <input type="text" name="to" placeholder="destino">
+        <input type="text" name="subject" placeholder="asunto">
+        <input type="text" name="message" placeholder="mensaje">
+        <input type="file" name="adjuntos" multiple>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <br><br>
+
+
+    <ul>
+        <li>
+            <a href="/saludo.html">Saludo con html</a>
+        </li>
+        <li>
+            <a href="/saludo">Saludo con Handlebars</a>
+        </li>
+        <li>
+            <a href="/usuarios">Usuarios</a>
+        </li>
+        <li>
+            <a href="/datos">Datos</a>
+        </li>
+        <li>
+            <a href="/token">Token</a>
+        </li>
+    </ul>
+
+    <!-- <img src="img/messi2.jpg" alt="Messi" width="150"> -->
+
+</body>
+</html>

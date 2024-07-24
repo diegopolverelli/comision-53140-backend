@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: sans-serif; /* Modern, clean font */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding for content breathing room */
+    background-color: #f5f5f5; /* Light background color */
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4 {
+    margin: 10px 0; /* Consistent margin for headings */
+    font-weight: bold; /* Emphasize headings */
+  }
+  
+  h1 {
+    font-size: 2em; /* Largest heading */
+  }
+  
+  h2 {
+    font-size: 1.5em; /* Medium-sized heading */
+  }
+  
+  h3 {
+    font-size: 1.2em; /* Slightly smaller heading */
+  }
+  
+  h4 {
+    font-size: 1em; /* Smallest heading */
+  }
+  
+  /* Form elements */
+  form {
+    display: flex; /* Arrange form elements horizontally */
+    flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+    margin-bottom: 20px; /* Add some space after the form */
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 4px; /* Rounded corners for a modern look */
+    margin-right: 10px; /* Spacing between input fields */
+    width: 200px; /* Set a default width for text inputs */
+    margin-bottom: 5px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green submit button */
+    color: white;
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable element */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  /* Navigation list */
+  ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Spacing between list items */
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Blue color for links */
+  }
+  
+  a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Horizontal rule */
+  hr {
+    border: 1px solid #ddd; /* Light gray border for the horizontal rule */
+    margin: 20px 0; /* Add space before and after the rule */
+  }
+  

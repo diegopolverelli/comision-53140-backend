@@ -1,0 +1,9 @@
+2024/07/23 19:13:28 [error] 19876#17692: *3 CreateFile() "C:\Users\diego\dev\Coder-53140\clases\clase38-seguridad\clase\00-claseAnterior\02-nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/07/23 19:16:32 [notice] 28236#38776: signal process started
+2024/07/23 19:16:52 [error] 26884#14208: *14 CreateFile() "C:\Users\diego\dev\Coder-53140\clases\clase38-seguridad\clase\00-claseAnterior\02-nginx/../03-miSitioWeb/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:3001", referrer: "http://localhost:3001/"
+2024/07/23 19:17:46 [notice] 25832#40140: signal process started
+2024/07/23 19:19:48 [notice] 37196#20844: signal process started
+2024/07/23 19:23:55 [emerg] 37688#39332: "http" directive is not allowed here in C:\Users\diego\dev\Coder-53140\clases\clase38-seguridad\clase\00-claseAnterior\02-nginx/conf/nginx.conf:35
+2024/07/23 19:24:36 [notice] 38064#31276: signal process started
+2024/07/23 19:26:59 [notice] 20292#27556: signal process started
+2024/07/23 19:30:47 [notice] 17292#9696: signal process started

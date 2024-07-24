@@ -1,0 +1,27 @@
+<h2>Datos:</h2>
+
+<hr>
+
+<form action="/datos" method="post">
+    <input type="text" name="dato" placeholder="dato">
+    <input type="submit" value="Ingresar">
+</form>
+
+<hr>
+<h3>Datos:</h3>
+<ul>
+    {{#each datos}}
+        <li>{{this.dato}}</li>
+    {{/each}}
+</ul>
+
+<hr>
+<button onclick="recupera()">Recupera datos JS</button>
+<div id="datos"></div>
+
+<br><br>
+<a href="/">Home Page</a>
+
+<script type="text/javascript" src="js/purify.min.js"></script>
+
+<script src="js/datos.js"></script>
