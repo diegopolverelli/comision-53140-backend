@@ -1,0 +1,38 @@
+# https://swagger.io/docs/specification/authentication/
+
+paths:
+  /something:
+    get:
+      security:
+        - basicAuth: []
+        - bearerAuth: []
+      responses:
+        '401':
+           $ref: '#/components/responses/UnauthorizedError'
+    post:
+      # security:
+      #   - basicAuth: []
+      #   - bearerAuth: []
+      responses:
+        '401':
+           $ref: '#/components/responses/UnauthorizedError'
+
+components:
+  responses:
+    UnauthorizedError:
+      description: Authentication information is missing or invalid
+      headers:
+        WWW_Authenticate:
+          schema:
+            type: string
+  securitySchemes:
+    basicAuth:     # <-- arbitrary name for the security scheme
+      type: http
+      scheme: basic
+    bearerAuth:            # arbitrary name for the security scheme
+      type: http
+      scheme: bearer
+      bearerFormat: JWT    # optional, arbitrary value for documentation purpose
+security:
+  - basicAuth: []  # <-- use the same name here
+  - bearerAuth: []  # <-- use the same name here

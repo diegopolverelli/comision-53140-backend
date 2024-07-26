@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Bienvenido</h2>
+    <div id="saludo"></div>
+    <form action="/saludo" method="post">
+        <input type="text" name="nombre" placeholder="nombre" id="nombre">
+        <input type="submit" value="Ingresar" id="btnSubmit">
+    </form>
+
+    <!-- <a href="http://www.google.com.ar">Diego</a> -->
+
+    <br><br>
+    <a href="/">Home Page</a>
+    
+    <!-- <script>prompt("hola")</script> -->
+
+    <script>
+        let divSaludo=document.getElementById("saludo")
+        let btnSubmit=document.getElementById("btnSubmit")
+        let inputNombre=document.getElementById("nombre")
+        btnSubmit.addEventListener("click",async(e)=>{
+            e.preventDefault()
+            let nombre=inputNombre.value
+            let body={nombre}
+
+            let respuesta=await fetch("http://localhost:3000/saludo", {
+                method:'post',
+                headers:{
+                    "Content-Type":"application/json"
+                },
+                body: JSON.stringify(body)
+            })
+
+            let datos=await respuesta.json()
+            console.log(datos)
+            divSaludo.innerHTML=`Hola ${datos.nombre}...!!!`
+            // divSaludo.textContent=`Hola ${datos.nombre}...!!!`
+
+        })
+
+    </script>
+</body>
+</html>
