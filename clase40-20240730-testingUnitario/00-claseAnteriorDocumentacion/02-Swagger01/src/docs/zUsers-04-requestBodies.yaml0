@@ -1,0 +1,104 @@
+# https://swagger.io/docs/specification/describing-request-body/
+
+paths:
+  /api/users/:
+    get:
+      summary: Obtiene todos los usuarios
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Los usuarios fueron obtenidos OK desde la DB
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#components/schemas/User'
+        "500":
+          description: Error interno del servidor
+    post:
+      summary: Graba un usuario
+      tags:
+        - Users
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/requestBodies/createUser'
+      responses:
+        "201":
+          description: Usuario creado
+        "500":
+          description: Error interno del servidor
+  /api/users/{uid}:
+    get:
+      summary: Obtiene un usuario de la base de datos
+      tags:
+        - Users
+      parameters:
+      - name: uid
+        in: path
+        required: true
+        description: id del usuario que se está solicitando
+        schema:
+          type: string
+      # - name: Authorization
+      #   in: header
+      #   required: true
+      #   description: Token de autenticación
+      #   schema:
+      #     type: string            
+      responses:
+        "200":
+          description: Recupera un usuario de la DB, según el uid que enviamos en la ruta como parámetro
+        "500":
+          description: Error interno del servidor
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        _id:
+          type: ObjectId
+          description: Id autogenerado de mongo
+        first_name:
+          type: string
+          description: Nombre del usuario
+        last_name:
+          type: string
+          description: Apellido...    
+        email:
+          type: string
+          description: Correo electronico
+        password: 
+          type: string
+          description: contraseña de acceso  
+      example:
+        _id: ObjectId("60acc54545c8e82e0475200b")
+        first_name: Diego
+        last_name: Polverelli
+        email: diegopolverelli@hotmail.com
+        password: 123
+  requestBodies:
+    createUser:
+      type: object
+      properties:
+        first_name:
+          type: string
+          description: Nombre de usurio
+        last_name:
+          type: string
+          description: Apellido
+        email:
+          type: string
+          description: Correo del usuario
+        password:
+          type: string
+          description: Contraseña del usuario
+      example:
+        first_name: Diego
+        last_name: Polverelli
+        email: diego@hotmail.com
+        password: coder123          

@@ -1,0 +1,100 @@
+paths:
+  /api/users:
+    get:
+      summary: Listado de usuarios.
+      tags:
+        - Users
+      description: Optional extended description in CommonMark or HTML.
+      responses:
+        # '200':    # status code
+        #   description: A JSON array of user names
+        #   content:
+        #     application/json:
+        #       schema: 
+        #         type: array
+        #         items: 
+        #           type: string
+        #           example: "Juan"
+        # '200':    # status code
+        #   description: A JSON array of user names
+        #   content:
+        #     application/json:
+        #       schema: 
+        #         type: array
+        #         items: 
+        #           type: object
+        #           properties:
+        #             nombre: 
+        #               type: string
+        #               example: "Juan"
+        #             email: 
+        #               type: string
+        #               example: "juan@test.com"
+        # '200':    # status code
+        #   description: A JSON array of user names
+        #   content:
+        #     application/json:
+        #       schema: 
+        #         type: object
+        #         properties:
+        #           message:
+        #             type: string
+        #             example: "Lista de usuarios"
+        #           usuarios:
+        #             type: array
+        #             items: 
+        #               type: object
+        #               properties:
+        #                 id:
+        #                   type: ObjectId
+        #                   example: "60acc54545c8e82e0475f73a"
+        #                 nombre: 
+        #                   type: string
+        #                   example: "Juan"
+        #                 email: 
+        #                   type: string
+        #                   example: "juan@test.com"
+        '200':    # status code
+          description: A JSON array of user names
+          content:
+            application/json:
+              schema: 
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Lista de usuarios"
+                  usuarios:
+                    type: array
+                    items: 
+                      $ref: '#components/schemas/User'
+        '404':    # status code
+          description: Error
+          # content:
+          #   application/json:
+          #     schema: 
+          #       type: array
+          #       items: 
+          #         type: string
+    post:
+      summary: Graba un usuario.
+      tags:
+        - Users
+      description: Optional extended description in CommonMark or HTML.
+      responses:
+        '200':    # status code
+          description: A JSON array of user names
+          # content:
+          #   application/json:
+          #     schema: 
+          #       type: array
+          #       items: 
+          #         type: string
+        '404':    # status code
+          description: Error
+          # content:
+          #   application/json:
+          #     schema: 
+          #       type: array
+          #       items: 
+          #         type: string

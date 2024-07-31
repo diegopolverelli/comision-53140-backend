@@ -1,0 +1,12 @@
+paths:
+  /api/products:
+    get:
+      summary: Listado de productos.
+      tags:
+        - Products
+      description: Optional extended description in CommonMark or HTML.
+    post:
+      summary: Listado de productos.
+      tags:
+        - Products
+      description: Optional extended description in CommonMark or HTML.
