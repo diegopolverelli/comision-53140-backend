@@ -1,0 +1,26 @@
+- Crear cuenta en mercadopago
+- Ingresar a mercadopago Developers
+- Generar una nueva integración / aplicación. Hay varias modalidades. La que vamos a ver nosotros
+es la que lleva en la opción "integración con", la de tipo "CheckoutPro", y en la opción
+"Modalidad de Integración", la alternativa "BilleteraMercadopago"
+- Ingresar a la integración generada, según el paso previo
+- Generar cuentas de prueba. Al menos 2. Nombrar una como comprador y otra como vendedor. Se 
+pueden generar varias, pero con 2 es suficiente. Guardar los datos de ambas (usuario y password)
+- Acceder a mercadopago Developers con una de las cuentas de prueba (la de vendedor; el usuario
+y la contraseña se pueden ver al momento de dar de alta las cuentas)
+- Configurar una integración
+- Obtener los datos de producción de esa integración; serían los datos de producción de una
+integración, que hemos generado dentro de una cuenta de pruebas (cuenta de pruebas que denominamos
+"vendedor"
+- Configurar en node, según la documentación
+- Correr el proyecto
+- Ingresar a mercado pago con una de las cuentas de prueba "comprador"; no puede ser la misma en 
+la que generamos la integración (vendedora). 
+- Realizar una compra. Seguir los pasos. Permitirá ejecutar una compra, y pagarla. Medios de pago
+disponibles: https://www.mercadopago.com.ar/developers/es/docs/checkout-api/additional-content/your-integrations/test/cards
+- Si uno vuelve a ingresar a mercadopago con la cuenta de pruebas "vendedor", podrá ver el pago
+realizado por la cuenta "comprador"
+
+
+Luego, en un entorno real, la integración deberá realizarse en la cuenta en la cual queremos 
+recibir el dinero. Y usar las claves de producción. Y ya puede desplegar. Previo probarla. 

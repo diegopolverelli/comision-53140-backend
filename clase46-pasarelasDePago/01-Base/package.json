@@ -1,0 +1,22 @@
+{
+  "name": "01-base",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/stripe": "^8.0.417"
+  }
+}

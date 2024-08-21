@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    <h2>Circuito de pagos con Stripe</h2>
+
+    <a href="index.html">Limpiar form</a>
+
+    <br><br>
+    <label for="importe">Importe a pagar</label>
+    <input type="number" step="0.10" name="importe" id="importe" value="10" min="1">
+
+    <a href="#" onclick="cargarMedios()">Confirmar Compra</a>
+    <br><br>
+    <div id="payment-element" style="border: 1px solid blue">
+        <br>
+    </div>
+    <br>
+    <a href="#" onclick="pagar()">Pagar</a>
+    <br>
+    <br>
+    <div id="resultado" style="border: 1px solid green">
+        <br>
+    </div>
+
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="/js/pagos.js"></script>
+
+</body>
+</html>
